@@ -164,7 +164,28 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>A módszertan</h2>
-            <p class="lead">Kidolgozás alatt...</p>
+            <h3>Hipotézis:</h3>
+	    <p class="lead">A Semmelweis Egyetem klinikumában dolgozó orvosok (2513 fő) nagy számban vállalnak másodállást különböző magánellátóknál.</p>
+	    <h3>Kutatásunk célja:</h3> 
+	    <p class="lead">Orvosok másodállásainak felkutatása nyíilvánosan elérhető adatok alapján (LinkedIn, magánellátók weboldalai, foglaljorvost.hu). A kutatás eredményét később vizuálisan ábrázoljuk, ezzel jól szemléltetve, a szervezeti egységek közti összefüggéseket.</p>
+	    <h3>Projekt  lépései:</h3>
+	    	<ol>
+			<li>Adatbányászat</li>
+			<li>Adattisztítás</li>
+			<li>Adatvizualizáció (weboldal + interaktív gráf</li>
+			<li>Előadás a kiválasztott konferenciákon</li>
+		</ol>
+		<h4>Adatbányászat:</h4>
+		<p class="lead">Manuális adatkeresés a az interneten. A kutatáshoz a következő weboldalakat használtuk</p> 
+		<ul>
+			<li>semmelweis.hu a klinkumban dolgozó orvosok listájának elkészítése érdekében</li>
+			<li>linkedin.hu foglaljorvost.hu magánkórházak weboldalai. A másodállások felkutatására szolgáltak</li>
+		</ul>
+		<p class="lead">A talált adatok excel táblában kerülnek rögzítésre, ami egy egyszerű adatbázisként szolgál.</p>
+		<h4>Adattisztítás:</h4>
+		<p class="lead">RStudio és JSON segítségével a későbbi adatvizualizációhoz szükséges adatok szűrése. Azokat az orvosokat veszi figyelembe ahol találtunk másodállást.</p>
+		<h4>Adatvizulizáció:</h4>
+		<p class="lead">Először is egy wordpress weboldalt készítettünk, amire a D3js segítsgével létrehozott interaktív gráfot helyeztük el. Ezt a gráfot az adattisztítási munka után elkészült JSON fájl alapján szerkesztettük. A modell működése egyszerű, a Semmelweis Egyetem klinikái és az adott magánellátó közötti kapcsolatot szemlélteti. Minél vastagabb az él a két intézmény között, annál több orvos dolgozik a magánellátónál az adott egyetemi klinikától.</p>
           </div>
         </div>
       </div>
@@ -202,7 +223,7 @@
 		<li>Batta Balázs - Adatbányász</li>
 			<p>"Batta Balázs vagyok, harmadéves hallgató a Semmelweis Egyetem - Egészségügyi ügyvitelszervező szakán. Azért jelentkeztem erre a projektre, mert az egyetemi tanulmányaim mellett fontosnak érzem, hogy tudjam fejleszteni magam, valamint a képzés során megszerzett képességeimet. Szeretném kipróbálni magam új helyzetekben, amire ez a projekt egy tökéletes lehetőség. Adatbányászként az a feladatom, hogy megtaláljam és kigyűjtsem Semmelweis Egyetem Klinikumában dolgozók közül azokat, akik párhuzamosan dolgoznak a magán egészségügyben is."</p>
 		<li>Pataki Vivien - Fejlesztő</li>
-			<p>"Mint fejlesztő, azon dolgozom, hogy a projekttagjai által igényesen végzett kutatás eredményeinekreprezentálásához egy minnél átláthatóbb és letisztultabb weboldalt hozzak létre és fejlesszek. "</p>
+			<p>"Mint fejlesztő, azon dolgozom, hogy a projekten dolgozók által igényesen végzett kutatás eredményeinek reprezentálásához egy, minnél átláthatóbb és letisztultabb weboldalt hozzak létre és fejlesszek. "</p>
 	    </ul>
           </div>
         </div>
